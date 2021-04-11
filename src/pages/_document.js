@@ -32,7 +32,7 @@ class MyDocument extends Document {
 
     render() {
         return (
-            <Html {...this.helmetHtmlAttrComponents}>
+            <Html {...this.helmetHtmlAttrComponents, lang="en" amp}>
                 <Head>{this.helmetHeadComponents}</Head>
                 <body {...this.helmetBodyAttrComponents}>
                     <Main />
