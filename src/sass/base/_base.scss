@@ -15,6 +15,7 @@ body {
 
 ::selection {
     background: #29cf7f;
+    
 }
 
 @each $style in map-keys($theme-styles) {
