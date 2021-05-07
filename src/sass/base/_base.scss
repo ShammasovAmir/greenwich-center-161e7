@@ -13,6 +13,10 @@ body {
 	@include font-smooth();
 }
 
+::selection {
+    background: ;
+}
+
 @each $style in map-keys($theme-styles) {
 	$style-suffix: "#{$style}";
 	$fonts: map-deep-get($theme-styles, $style, "fonts");
