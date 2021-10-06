@@ -5,7 +5,7 @@ export default class Icon extends React.Component {
     render() {
         let icon = _.get(this.props, 'icon', null);
         return (
-            <svg className="icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <svg className="icon" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
             	{(icon === 'arrow-left') ? (
             	<path d="M22 10.75h-15.212l6.988-6.988-1.775-1.763-10 10 10 10 1.763-1.763-6.975-6.988h15.212v-2.5z" />
             	) : ((icon === 'arrow-right') ? (
