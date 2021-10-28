@@ -1,3 +1,3 @@
 # Greenwich-center
 
-<img src="" />
+<img src="" width="600">
