@@ -1,6 +1,6 @@
 # Greenwich-center
 
-<img src="https://themes.stackbit.com/images/diy-demo-1024x768.png" width="600">
+<img src="https://d33wubrfki0l68.cloudfront.net/61680b0a1e9dfac48b6786e7/screenshot_2021-10-14-10-50-23-0000.png" width="600">
 
 [Live Site](https://www.greenwich-center.ru)
 
