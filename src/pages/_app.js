@@ -51,4 +51,4 @@ function MyApp({ Component, pageProps }) {
 //   return { ...appProps }
 // }
 
-export default MyApp
+export default withYM("46039146", Router)(MyApp);
