@@ -1,6 +1,7 @@
 // import App from 'next/app'
 import { useEffect } from 'react';
 import Router from 'next/router';
+import withYM from "next-ym";
 import '../sass/main.scss';
 
 
