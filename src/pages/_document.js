@@ -44,6 +44,7 @@ class MyDocument extends Document {
                 }}></script>
                 </Head>
                 <body {...this.helmetBodyAttrComponents}>
+                    
                     <Main />
                     <ScriptTag src={withPrefix('js/init.js')}/>
                     <ScriptTag src={withPrefix('js/page-load.js')}/>
