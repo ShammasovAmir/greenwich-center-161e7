@@ -45,9 +45,9 @@ class MyDocument extends Document {
                 </Head>
                 <body {...this.helmetBodyAttrComponents}>
                     <noscript dangerouslySetInnerHTML={{ __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N6ZDT9T"
-        height="0" width="0" style="display:none;visibility:hidden"></iframe>`,
-      }}
-    />
+                        height="0" width="0" style="display:none;visibility:hidden"></iframe>`,
+                    }}
+                    />
                     <Main />
                     <ScriptTag src={withPrefix('js/init.js')}/>
                     <ScriptTag src={withPrefix('js/page-load.js')}/>
